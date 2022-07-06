@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: 85vh;
+}
+
+#s-box:hover{
+  background-color: rgb(112, 172, 221);
+  transition: 0.5s;
+  transform: translateY(-8px);
+}
+
+.card-body img{
+  min-width: 60%;
+  max-height: 250px;
+}
+
+#team-card {
+    box-shadow: -1px 1px 8px 0px;
+    border-radius: 20px !important;
+}
+
+#team-card:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
+  background-color: rgb(211, 83, 228);
+}
+
